@@ -1,21 +1,23 @@
 import React from 'react';
 import crypto from '../assets/crypto.svg';
- 
+
 const CryptoBanner = () => {
   return (
-    <div className="w-full  min-h-[500px] flex items-center justify-center p-8">
+    <div className="w-full min-h-[500px] flex items-center justify-center p-8">
       {/* Main container with primary gradient */}
       <div className="w-full max-w-6xl relative rounded-3xl overflow-hidden">
-        {/* Multiple layered gradients for depth */}
-        <div className="absolute inset-0 bg-gradient-to-br from-blue-950 via-blue-900 to-blue-800" />
-        <div className="absolute inset-0 bg-gradient-to-r from-indigo-950 via-blue-950 to-transparent opacity-80" />
-        <div className="absolute inset-0 bg-gradient-to-b from-transparent via-blue-950/50 to-blue-950" />
+        {/* Base gradient with light coming from above */}
+        <div className="absolute inset-0 bg-gradient-to-b from-blue-900 via-blue-800 to-blue-950" />
+        
+        {/* Overlay gradient to enhance the light effect */}
+        <div className="absolute inset-0 bg-gradient-to-b from-blue-700/30 via-transparent to-blue-950/70" />
         
         {/* Radial gradient overlay for the spotlight effect */}
-        <div className="absolute inset-0">
-          <div className="absolute inset-0 bg-gradient-to-r from-blue-900/20 via-blue-800/10 to-transparent" />
-        </div>
+        <div className="absolute inset-0 bg-gradient-to-b from-blue-700/20 via-transparent to-blue-950/50" />
         
+        {/* Additional gradient for depth and contrast */}
+        <div className="absolute inset-0 bg-gradient-to-t from-blue-950/50 via-transparent to-blue-900/30" />
+
         <div className="flex flex-col md:flex-row items-center justify-between p-8 md:p-16 relative z-10">
           {/* Left content */}
           <div className="text-white space-y-6">
