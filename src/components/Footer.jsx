@@ -53,7 +53,7 @@ const Footer = () => {
 
       {/* Bottom Section */}
       <div className="border-t border-gray-700 mt-8 pt-8 text-center">
-        <p>© 2019 - {new Date().getFullYear()} OneKey Limited. All Rights Reserved.</p>
+        <p>©  {new Date().getFullYear()} Learn Leadger Limited. All Rights Reserved.</p>
         <div className="flex justify-center space-x-4 mt-4">
           <a href="#" className="hover:text-gray-400">Help</a>
           <a href="#" className="hover:text-gray-400">Referral</a>
