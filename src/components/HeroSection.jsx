@@ -5,7 +5,7 @@ const HeroSection = () => {
   // const [hoveredButton, setHoveredButton] = useState(null);
   const [active, setActive] = useState('start');
   return (
-    <div className="w-[90%]  bg-[#f3f4f6]  flex flex-col items-center justify-center pb-40 rounded-b-[40px] mb-10 ">
+    <div className="w-[90%]  bg-[#f3f4f6]  flex flex-col items-center justify-center pb-60 rounded-b-[40px] mb-10 ">
       <div className='w-full h-[85px] flex flex-row justify-between items-center'>
         <div className='w-1/5 h-full bg-white rounded-br-[40px] '></div>
         <div className='w-3/5 h-full bg-[white] flex flex-col items-center justify-start'>
