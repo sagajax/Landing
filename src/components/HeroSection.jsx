@@ -20,11 +20,10 @@ const HeroSection = () => {
         </div>
       </div>
       <h1 className="text-4xl mt-12 md:text-6xl lg:text-7xl font-bold text-center max-w-7xl mx-auto leading-tight tracking-wider text-gray-900">
-        <span className="block mb-2">AI Agent + AI WhatsApp</span>
-        <span className="block mb-2">Marketing Campaigns For</span>
-        <span className="block mb-2">Ecom That Get You Sales &</span>
-        <span className="block">Automate Support</span>
+        <span className="block mb-2">Transform Your Learning</span>
+        <span className="block mb-2">into Earning</span>
       </h1>
+      <span className="block text-s font-semibold leading-tight tracking-widest">Master In-Demand Skills, Complete Challenges, Earn Crypto</span>
 
 
       <div className="flex mt-12 bg-white p-1 rounded-full relative items-center w-full max-w-md overflow-hidden">

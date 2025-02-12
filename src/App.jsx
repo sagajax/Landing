@@ -12,6 +12,8 @@ import p2 from './assets/p2.webp'
 
 import BlackWarpBackground from './components/BlackWrapBackground'
 import RootLayout from './RootLayout'
+import FAQSection from './components/FAQ'
+import PartnersSection from './components/Partner'
 function App() {
   return (
     <RootLayout>
@@ -33,6 +35,7 @@ function App() {
         <Pg />
       </div>
       <BlackWarpBackground />
+      <FAQSection />
       <div className="mb-20 "> 
       <SetupOneKey />
       </div>

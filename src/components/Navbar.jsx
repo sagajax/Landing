@@ -109,7 +109,7 @@ const Navbar = () => {
               <NavigationMenuItem>
                 <div className="relative">
                   <NavigationMenuTrigger className="group/res relative flex w-auto cursor-pointer items-center gap-2 rounded-full border bg-white p-2 px-6 text-center font-semibold overflow-hidden">
-                    <div className="absolute left-2 top-1/2 h-2 w-2 -translate-y-1/2 rounded-full bg-black transition-all duration-500 group-hover/res:scale-[100] group-hover/res:bg-black"></div>
+                    <div className="absolute left-2 top-1/2 h-2 w-2 -translate-y-1/2 rounded-full  transition-all duration-500 group-hover/res:scale-[100] group-hover/res:bg-violet-500"></div>
                     <span className="relative z-10 ml-3 transition-colors duration-200 group-hover/res:text-white">
                       Products
                     </span>
@@ -170,7 +170,7 @@ const Navbar = () => {
               <NavigationMenuItem>
                 <div className="relative">
                   <NavigationMenuTrigger className="group/app relative flex w-auto cursor-pointer items-center gap-2 rounded-full border bg-white p-2 px-6 text-center font-semibold overflow-hidden">
-                    <div className="absolute left-2 top-1/2 h-2 w-2 -translate-y-1/2 rounded-full bg-black transition-all duration-100 group-hover/app:scale-[100] group-hover/app:bg-black"></div>
+                    <div className="absolute left-2 top-1/2 h-2 w-2 -translate-y-1/2 rounded-full  transition-all duration-100 group-hover/app:scale-[100] group-hover/app:bg-violet-500"></div>
                     <span className="relative z-10 ml-3 transition-colors duration-200 group-hover/app:text-white">
                       App
                     </span>
@@ -217,7 +217,7 @@ const Navbar = () => {
               <NavigationMenuItem>
                 <div className="relative">
                   <NavigationMenuTrigger className="group/dev relative flex w-auto cursor-pointer items-center gap-2 rounded-full border bg-white p-2 px-6 text-center font-semibold overflow-hidden">
-                    <div className="absolute left-2 top-1/2 h-2 w-2 -translate-y-1/2 rounded-full bg-black transition-all duration-100 group-hover/dev:scale-[100] group-hover/dev:bg-black"></div>
+                    <div className="absolute left-2 top-1/2 h-2 w-2 -translate-y-1/2 rounded-full  transition-all duration-100 group-hover/dev:scale-[100] group-hover/dev:bg-violet-500"></div>
                     <span className="relative z-10 ml-3 transition-colors duration-200 group-hover/dev:text-white">
                       Developer
                     </span>
@@ -267,7 +267,7 @@ const Navbar = () => {
               <NavigationMenuItem>
                 <div className="relative">
                   <NavigationMenuTrigger className="group/products relative flex w-auto cursor-pointer items-center gap-2 rounded-full border bg-white p-2 px-6 text-center font-semibold overflow-hidden">
-                    <div className="absolute left-2 top-1/2 h-2 w-2 -translate-y-1/2 rounded-full bg-black transition-all duration-500 group-hover/products:scale-[100] group-hover/products:bg-black"></div>
+                    <div className="absolute left-2 top-1/2 h-2 w-2 -translate-y-1/2 rounded-full  transition-all duration-500 group-hover/products:scale-[100] group-hover/products:bg-violet-500"></div>
                     <span className="relative z-10 ml-3 transition-colors duration-200 group-hover/products:text-white">
                       Resource
                     </span>
@@ -307,9 +307,11 @@ const Navbar = () => {
 
           {/* Right Side */}
           <div className="flex items-center space-x-4">
-            <button className="hidden md:inline-flex flex-row rounded-full bg-black px-5 py-2 text-base font-semibold text-white transition-all duration-300 hover:bg-lime-300 hover:text-black gap-1">
-              <p>Free </p>
-              <p>Download</p>
+            <button className="hidden md:inline-flex flex-row rounded-full bg-black px-5 py-2 text-base font-semibold text-white transition-all duration-300 hover:bg-violet-500  gap-1">
+              <p>Login </p>
+            </button>
+            <button className="hidden md:inline-flex flex-row rounded-full bg-black px-5 py-2 text-base font-semibold text-white transition-all duration-300 hover:bg-violet-500  gap-1">
+              <p>SignUp </p>
             </button>
           </div>
         </div>
