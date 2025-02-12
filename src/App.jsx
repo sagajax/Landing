@@ -14,6 +14,7 @@ import BlackWarpBackground from './components/BlackWrapBackground'
 import RootLayout from './RootLayout'
 import FAQSection from './components/FAQ'
 import PartnersSection from './components/Partner'
+import Banner from './components/Banner'
 function App() {
   return (
     <RootLayout>
@@ -31,11 +32,13 @@ function App() {
       </div>
       <Slider />
       <FeatureGrid />
+      <Banner />
       <div className="mb-40">
         <Pg />
       </div>
       <BlackWarpBackground />
       <FAQSection />
+      <PartnersSection />
       <div className="mb-20 "> 
       <SetupOneKey />
       </div>
