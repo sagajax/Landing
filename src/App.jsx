@@ -15,6 +15,7 @@ import RootLayout from './RootLayout'
 import FAQSection from './components/FAQ'
 import PartnersSection from './components/Partner'
 import Banner from './components/Banner'
+import BentoGrid from './components/Bento'
 function App() {
   return (
     <RootLayout>
@@ -36,6 +37,7 @@ function App() {
       <div className="mb-40">
         <Pg />
       </div>
+      <BentoGrid />
       <BlackWarpBackground />
       <FAQSection />
       <PartnersSection />

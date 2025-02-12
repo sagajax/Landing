@@ -29,7 +29,7 @@ const PartnersSection = () => {
         {partners.map((partner) => (
           <div
             key={partner.id}
-            className="relative group bg-violet-700 rounded-lg p-4 h-32 transition-all duration-300 hover:shadow-2xl hover:scale-105 hover:translate-y-[-2px] hover:bg-white"
+            className="relative group bg-black rounded-lg p-4 h-32 transition-all duration-300 hover:shadow-2xl hover:scale-105 hover:translate-y-[-2px] hover:bg-white"
           >
             <div className="h-full w-full flex items-center justify-center">
               <img
