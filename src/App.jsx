@@ -7,8 +7,7 @@ import SetupOneKey from './components/SetupOneKey'
 import FeatureGrid from './components/FeatureGrid'
 import Slider from './components/Slider'
 import HeroSection from './components/HeroSection'
-import p1 from './assets/p1.webp'
-import p2 from './assets/p2.webp'
+
 
 import BlackWarpBackground from './components/BlackWrapBackground'
 import RootLayout from './RootLayout'
@@ -16,13 +15,15 @@ import FAQSection from './components/FAQ'
 import PartnersSection from './components/Partner'
 import Banner from './components/Banner'
 import BentoGrid from './components/Bento'
+import Phone from './components/Phone'
+
 function App() {
   return (
     <RootLayout>
       <div className='flex flex-col items-center py-8 '>
       <Navbar />
       <HeroSection />
-      
+      <Phone />
       <Slider />
       <FeatureGrid />
       <Banner />
