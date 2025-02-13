@@ -94,12 +94,7 @@ const Navbar = () => {
         <div className="flex h-16 items-center justify-between gap-2 p-2">
           {/* Logo Section */}
           <div className="flex items-center gap-4">
-            <div className="flex items-center bg-black rounded-2xl overflow-hidden">
-              <a href="/" className="flex items-center">
-                <img src={logo} alt="OneKey" className="h-12 w-25" />
-              </a>
-            </div>
-            <span className="font-bold text-lg whitespace-nowrap">Learn Ledger</span>
+            <span className="font-bold text-2xl whitespace-nowrap">Learn Ledger</span>
           </div>
 
           {/* Navigation Links */}
